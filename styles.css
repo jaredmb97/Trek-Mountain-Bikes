@@ -1,3 +1,6 @@
+html {
+	background-color: #323232;
+}
 body {
 	font-family: Arial, sans-serif;
 	display: flex;
@@ -5,30 +8,37 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background-color: #f4f4f4;
 	margin: 0;
+	color: white;
 }
 
 .subscription-card {
+	background: linear-gradient(0.25turn, #4a4a4b 50%, #3a3a3b 50%);
 	padding: 1rem 2rem;
-	background-color: #fff;
 	border-radius: 25% 25% 100% 100% / 20% 20% 60% 60%;
-	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 0 5px#323232, 0 0 0 8px#ffc98e, 0 0 0 12px#323232, 0 0 75px black;
 	width: 300px;
 	height: 450px;
 	margin: 2rem;
 	text-align: center;
 	box-sizing: border-box;
-	border: #333 solid 16px;
+	border: solid 3px #ffc98e;
+	position: relative;
 }
 
 .subscription-card h2 {
+	color: #ffc98e;
 	font-size: 2rem;
 }
 
+.hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, #4a4a4b, white, #3a3a3b);
+}
 .icon {
+	color: #ffc98e;
 	margin-top: 1rem;
-	/* padding: 2rem; */
 	font-size: 2rem;
 }
 
@@ -37,13 +47,13 @@ body {
 	padding: 0 0.75rem;
 	margin: 0;
 	font-size: 0.875rem;
-	color: #333;
 }
 
 .subscribe-button {
+	background-color: #ffc98e;
 	border-style: none;
 	margin-top: 1rem;
 	padding: 0.5rem 1.5rem;
 	border-radius: 10% / 40%;
-	text-decoration: none;
+	color: white;
 }
