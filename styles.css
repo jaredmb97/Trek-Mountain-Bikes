@@ -1,0 +1,46 @@
+/* Base font size for the document */
+html {
+	font-size: 16px; /* 1 rem = 16px */
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f4f4f4;
+	margin: 0;
+}
+
+.subscription-card {
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: 25% 25% 100% 100% / 20% 20% 60% 60%;
+	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+	min-width: 300px;
+	height: 60vh;
+	margin: 2rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.icon {
+	margin: 1rem;
+	/* padding: 2rem; */
+	font-size: 2rem;
+}
+
+.features-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.875rem;
+	color: #333;
+}
+
+.subscribe-button {
+	border-radius: 10% / 40%;
+	text-decoration: none;
+}
