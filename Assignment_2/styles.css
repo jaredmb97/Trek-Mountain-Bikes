@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+}
+
+.container-basic {
+	width: 400px;
+	height: 400px;
+	border-radius: 2%;
+	margin: 1rem;
+	background-image: url("deric-P3DxOe-OJGA-unsplash.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.card-basic {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+	backdrop-filter: blur(8px);
+	align-items: center;
+}
+
+.image-basic {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 2px;
+	box-shadow: 0 0 10px black;
+	margin: 4rem 2rem 2rem;
+}
+
+.profile-image-basic {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.data-basic {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2rem;
+}
+.social-icons-basic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icons-basic .icon {
+	margin: 1rem 1rem 0;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	border: solid 2px white;
+	padding: 3px;
+}
+
+/* Social Profile Card Styles */
+
+.image {
+	margin: -41px 0 0 20px;
+	position: relative;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 2px;
+}
+
+.container {
+	width: 400px;
+	height: 400px;
+	border-radius: 2%;
+	margin: 1rem;
+	border-radius: 2px;
+	border: 3px solid lightgray;
+	color: lightgreen;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	line-height: 2rem;
+	margin: 1rem;
+}
+
+.data p {
+	color: black;
+}
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	margin: 0 -1rem 0;
+}
+
+.social-icons .icon {
+	margin: 1rem 1rem 0;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	border: solid 2px lightgreen;
+	padding: 3px;
+}
+
+.background {
+	position: relative;
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+}
+
+.profile-image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+	/* align-items: center; */
+}
+
+/* Modern Social Card */
+
+.container-modern {
+	width: 400px;
+	height: 400px;
+	border-radius: 2%;
+	margin: 1rem;
+	background: url("deric-P3DxOe-OJGA-unsplash.jpg") no-repeat left top;
+	color: black;
+}
+
+.card-modern {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+
+	background: linear-gradient(170deg, transparent 40%, lightgray 40%);
+
+	align-items: center;
+}
+
+/* Hover Social Card */
+.container-hover {
+	width: 400px;
+	height: 400px;
+	border-radius: 2%;
+	margin: 1rem;
+	border-radius: 2px;
+	border: 3px solid lightgray;
+	color: fuchsia;
+}
+
+.social-icons-hover .icon {
+	margin: 1rem 1rem 0;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	border: solid 2px fuchsia;
+	padding: 3px;
+}
+
+.image-hover {
+	margin: -52px 0 -20px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 2px;
+}
+
+.card-hover {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+	align-items: center;
+}
+
+.data-hover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* line-height: 2rem; */
+	padding: 2rem;
+}
+
+.data-hover p {
+	margin: 0.75rem;
+	font-size: 12px;
+	color: black;
+}
