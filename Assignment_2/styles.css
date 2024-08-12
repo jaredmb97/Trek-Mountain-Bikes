@@ -211,3 +211,66 @@ body {
 	font-size: 12px;
 	color: black;
 }
+
+/* Floating Social Card */
+
+.container-floating {
+	width: 400px;
+	height: 400px;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.floating-img {
+	width: 300px;
+	height: 200px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px black;
+	margin: -25px;
+}
+
+.floating {
+	margin-top: 25px;
+	width: 400px;
+	height: 375px;
+	border: solid 2px grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.extra-container {
+	width: 400px;
+	height: 400px;
+	margin: 1rem;
+}
+
+.floating-btn {
+	width: 175px;
+	height: 2rem;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	background-color: green;
+}
+
+.data-floating {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	line-height: 2rem;
+	margin: 3rem 1rem 1rem;
+}
+
+.data-floating p {
+	margin: 1rem 0;
+}
+
+.data-floating h2 {
+	color: green;
+}
