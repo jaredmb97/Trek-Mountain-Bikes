@@ -1,0 +1,19 @@
+.image-slider {
+	position: relative;
+	display: inline-block;
+	width: fit-content;
+}
+.image-slider > div {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	overflow: hidden;
+	overflow: hidden;
+	resize: horizontal;
+}
+.image-slider img {
+	display: block;
+	height: 600px;
+}
